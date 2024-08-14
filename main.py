@@ -27,4 +27,4 @@ for i in quotes:
     # print(i)
     name = i.find('div')
     price = i.find('h6',)
-    print(name.text in range(3),price.text in range(3))
+    print(name.text,price.text)
